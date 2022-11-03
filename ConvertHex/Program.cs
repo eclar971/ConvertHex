@@ -9,7 +9,7 @@ namespace ConvertHex
             Console.WriteLine("Please enter a sentence of phrase");
             string ui = Console.ReadLine().ToLower();
             byte[] bytes = Encoding.UTF8.GetBytes(ui);
-            string hexUi = BitConverter.ToString(bytes);
+            string hexUi = BitConverter.ToString(bytes).ToLower();
             Console.WriteLine(hexUi.Replace("-"," "));
         }
     }
