@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9308C729-EB97-4060-94A4-DC483DB6766A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertHex", "ConvertHex\ConvertHex.csproj", "{9308C729-EB97-4060-94A4-DC483DB6766A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
