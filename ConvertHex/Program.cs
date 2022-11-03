@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Text;
 
-Console.WriteLine("Hello, World!");
+namespace ConvertHex
+{
+    class Porgram
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Please enter a sentence of phrase");
+            string ui = Console.ReadLine().ToLower();
+            byte[] bytes = Encoding.UTF8.GetBytes(ui);
+            string hexUi = BitConverter.ToString(bytes);
+            Console.WriteLine(hexUi.Replace("-"," "));
+        }
+    }
+}
+
